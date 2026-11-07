@@ -32,7 +32,9 @@ The project simulates a software testing process to demonstrate QA skills acquir
 
 ## Project Status
 
-In Progress.
+## Project Status
+
+In Progress — Requirements analysis and test case design completed for User Registration, User Login, Shopping Cart, and Order Checkout.
 
 ## Author
 
