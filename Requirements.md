@@ -102,3 +102,12 @@ The system must allow users to complete a purchase by confirming the products in
 - The system must require a payment method.
 - The system must display the correct final order amount.
 - The system must display an order confirmation after a successful purchase.
+
+- ## Testing Techniques Applied
+
+The following testing techniques were considered during the design of test cases for REQ-001 — User Registration:
+
+- **Equivalence Partitioning (EP):** Used to divide input data into valid and invalid groups for Name and Password fields.
+- **Boundary Value Analysis (BVA):** Used to verify values at and around the minimum and maximum limits of Name and Password fields.
+
+These techniques help improve test coverage and identify potential validation defects.
