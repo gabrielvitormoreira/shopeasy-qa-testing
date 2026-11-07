@@ -75,6 +75,7 @@ The system must allow users to add products to a shopping cart and manage the se
 - The system must calculate the total price correctly.
 - The system must display the updated cart information after each modification.
 - The system must display an empty cart when no products have been added.
+- The system must not allow product quantities lower than 1.
 
   ## REQ-004 — Order Checkout
 
