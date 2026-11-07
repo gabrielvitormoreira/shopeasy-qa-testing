@@ -105,6 +105,8 @@ The system must allow users to complete a purchase by confirming the products in
 - The system must require a payment method.
 - The system must display the correct final order amount.
 - The system must display an order confirmation after a successful purchase.
+- ## Open Questions
+- **REQ-004:** Should the system reject a Delivery Address field containing only whitespace characters?
 
 - ## Testing Techniques Applied
 
@@ -114,3 +116,5 @@ The following testing techniques were considered during the design of test cases
 - **Boundary Value Analysis (BVA):** Used to verify values at and around the minimum and maximum limits of Name and Password fields.
 
 These techniques help improve test coverage and identify potential validation defects.
+
+- **Positive and Negative Testing:** Applied to REQ-004 — Order Checkout to verify successful order submission and validation of mandatory checkout fields.
