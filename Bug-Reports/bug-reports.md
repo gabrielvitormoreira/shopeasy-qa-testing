@@ -133,6 +133,50 @@ Not available — simulated scenario.
 ### Note
 This is a hypothetical defect created for portfolio practice. It was not observed in a real application or verified through test execution.
 
+## BUG-004 — Checkout Allowed with Empty Full Name
+
+**Requirement:** REQ-004 — Order Checkout
+
+**Test Case:** TC-033 — Checkout with Empty Full Name
+
+### Environment
+Not specified — simulated scenario.
+
+### Preconditions
+The user has products in the shopping cart and is on the checkout page.
+
+### Steps to Reproduce
+1. Access the checkout page with products in the shopping cart.
+2. Leave the Full Name field empty.
+3. Enter a valid delivery address and select a payment method.
+4. Click the Place Order button.
+
+### Test Data
+- Full Name: Empty
+- Delivery Address: 123 Test Street
+- Payment Method: Credit Card
+
+### Expected Result
+The system should prevent order submission and display an error message indicating that the Full Name field is required.
+
+### Actual Result
+In this simulated scenario, the system allows the user to submit the order without providing a Full Name.
+
+### Severity
+High
+
+### Priority
+High
+
+### Status
+New
+
+### Evidence
+Not available — simulated scenario.
+
+### Note
+This is a hypothetical defect created for portfolio practice. It was not observed in a real application or verified through test execution.
+
 ## Bug Report Template
 
 ### Bug ID
