@@ -8,6 +8,48 @@ This document contains bug reports created during the ShopEasy QA testing projec
 - Type: Fictional E-commerce Application
 - Purpose: QA Portfolio Project
 
+## BUG-001 — Invalid Email Format Accepted on Login
+
+**Requirement:** REQ-002 — User Login
+
+**Test Case:** TC-019 — Invalid Email Format
+
+### Environment
+Not specified — simulated scenario.
+
+### Preconditions
+The user is on the ShopEasy login page.
+
+### Steps to Reproduce
+1. Enter an invalid email address in the Email field.
+2. Enter a password in the Password field.
+3. Click the Login button.
+
+### Test Data
+- Email: `gabriel.qa.test.com`
+- Password: `Teste1234`
+
+### Expected Result
+The system should prevent the login attempt and display an error message indicating that the email format is invalid.
+
+### Actual Result
+In this simulated scenario, the system allows the login form to be submitted with an invalid email format.
+
+### Severity
+Medium
+
+### Priority
+High
+
+### Status
+New
+
+### Evidence
+Not available — simulated scenario.
+
+### Note
+This is a hypothetical defect created for portfolio practice. It was not observed in a real application or verified through test execution.
+
 ## Bug Report Template
 
 ### Bug ID
